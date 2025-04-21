@@ -2,10 +2,11 @@ module.exports = {
     parser: "@typescript-eslint/parser",
     plugins: ["@typescript-eslint", "notice"],
     parserOptions: {
-      ecmaVersion: 9,
+      ecmaVersion: 10,
       sourceType: "module",
     },
     extends: [
+        
       "plugin:react/recommended",
       "plugin:react-hooks/recommended"
     ],
@@ -22,6 +23,11 @@ module.exports = {
      * Rules take the following form:
      *   "rule-name", [severity, { opts }]
      * Severity: 2 == error, 1 == warning, 0 == off.
+
+
+
+
+     
      */
     rules: {
         "@typescript-eslint/no-unused-vars": [2, {args: "none"}],
@@ -42,7 +48,7 @@ module.exports = {
         "wrap-iife": [2, "inside"],
         "spaced-comment": [2, "always", {
             "markers": ["*"]
-        }],
+        }],sdfsdfsd
         "eqeqeq": [2],
         "accessor-pairs": [2, {
             "getWithoutSet": false,
