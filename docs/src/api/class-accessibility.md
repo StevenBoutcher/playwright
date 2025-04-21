@@ -1,4 +1,4 @@
-# class: Accessibility
+# class: Accessibility - test PR
 * since: v1.8
 * langs: csharp, js, python
 * deprecated: This class is deprecated. Please use other libraries such as [Axe](https://www.deque.com/axe/) if you need to test page accessibility. See our Node.js [guide](https://playwright.dev/docs/accessibility-testing) for integration with Axe.
