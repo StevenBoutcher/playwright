@@ -14,7 +14,8 @@ test('verify menu items', async ({ page }) => {
     'Open SVG',
     'Paste markup',
     'Demo',
-    'Contribute'
+    'Contribute',
+    "Or don't contribute, see if I care!",
   ]);
 });
 
