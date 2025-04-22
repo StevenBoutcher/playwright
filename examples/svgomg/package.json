@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "yolo": "SwagTown",
   "devDependencies": {
     "@playwright/test": "^1.17.1"
   }
