@@ -9,18 +9,7 @@ index b52d8892843f6b934081c0e0b9f93264626937b5..d076e8ad848680e0a0b7790ff4b11bb7
 +    ${JAVASCRIPTCORE_DIR}/inspector/protocol/Dialog.json
      ${JAVASCRIPTCORE_DIR}/inspector/protocol/DOM.json
      ${JAVASCRIPTCORE_DIR}/inspector/protocol/DOMDebugger.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/DOMStorage.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Debugger.json
-+    ${JAVASCRIPTCORE_DIR}/inspector/protocol/Emulation.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/GenericTypes.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Heap.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/IndexedDB.json
-+    ${JAVASCRIPTCORE_DIR}/inspector/protocol/Input.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Inspector.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/LayerTree.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Memory.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Network.json
-     ${JAVASCRIPTCORE_DIR}/inspector/protocol/Page.json
+
 +    ${JAVASCRIPTCORE_DIR}/inspector/protocol/Playwright.json
      ${JAVASCRIPTCORE_DIR}/inspector/protocol/Recording.json
      ${JAVASCRIPTCORE_DIR}/inspector/protocol/Runtime.json
