@@ -5,16 +5,7 @@ set +x
 if [[ ($1 == '--help') || ($1 == '-h') ]]; then
   echo "usage: $(basename $0) <image-name> [<optional output filename>]"
   echo
-  echo "List mapping between browser dependencies to package names and save results in RUN_RESULT file or a custom file name."
-  echo "Example:"
-  echo ""
-  echo "  $(basename $0) ubuntu:bionic ubuntu-bionic-run-log"
-  echo ""
-  echo "NOTE: this requires Playwright dependencies to be installed with 'npm install'"
-  echo "      and Playwright itself being built with 'npm run build'"
-  echo ""
-  exit 0
-fi
+
 
 if [[ $# == 0 ]]; then
   echo "ERROR: please provide base image name, e.g. 'ubuntu:bionic'"
