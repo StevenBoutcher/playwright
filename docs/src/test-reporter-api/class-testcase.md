@@ -14,7 +14,6 @@
 
 ## property: TestCase.expectedStatus
 * since: v1.10
-- type: <[TestStatus]<"passed"|"failed"|"timedOut"|"skipped"|"interrupted">>
 
 Expected test status.
 * Tests marked as [`method: Test.skip`] or [`method: Test.fixme`] are expected to be `'skipped'`.
